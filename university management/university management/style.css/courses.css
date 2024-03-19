@@ -1,0 +1,347 @@
+.left-version{
+  text-align: left;
+  padding-bottom: 0;
+  color: #292929;
+  margin: 0;
+  padding: 0;
+}
+
+h1{
+  text-align: left;
+  padding:-2% 1%;
+}
+
+.ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background-color: #292929;
+}
+
+.li-a{
+  display: block;
+  color: #000;
+  padding: 8% 16%;
+  
+  color: aliceblue;
+   height: 100%;
+}
+
+/* Change the link color on hover */
+.li-a:hover {
+  background-color: #1f1f1f;
+  
+}
+
+
+h4{
+  background-color: #292929;
+  color: #ffffff;
+  padding: 8% 20%;
+}
+
+/* .admin{
+  padding: 15% 15%;
+} */
+
+.main{
+  width: 100%;
+  overflow-x:auto;
+  height: 100%;
+  
+  position: fixed;
+}
+.left-version {
+width: 13.5%;
+float: left;
+overflow-y: auto;
+/* Other existing styles remain unchanged */
+}
+
+.wlcm{
+  text-align: right;
+  font-family: Montserrat-Black;
+}
+
+.left-minur{
+  margin-top: -10%;
+  font-family: Montserrat-Black-light;
+  color: #ffffff;
+}
+.li-a a {
+  text-decoration: none;
+  color: white;
+  display: block;
+  color: white;
+  padding: 9% 10%;
+  text-decoration: none;
+ 
+}
+
+#main div {
+  display: flex;  /* IE 10 */  
+  /* flex: 1; */
+}
+
+
+.c-m-s-courses{
+    background-color: #3adcdc;
+    padding: 7% 10%;
+    font-family: Montserrat-Black;
+}
+
+.roll-no{
+    position:absolute;
+    left: 80%;
+    top: 26%;
+    background-color: #292929;
+    border-radius: 1rem;
+    color: #ffffff;
+}
+
+.roll-no:hover{
+    background-color: #444444;
+}
+
+.roll-no2{
+    position:absolute;
+    left: 90%;
+    top: 26%;
+    background-color: #292929;
+    border-radius: 1rem;
+    color: #ffffff;
+}
+
+.roll-no2:hover{
+  background-color: #444444;
+}
+
+.course-table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 80%; 
+  text-emphasis: none;
+  text-align: left;
+  margin-top: 20px; 
+  position: absolute;
+  left: 15%;
+ font-size: 1.5rem;
+}
+
+td, th {
+  border: 1px solid #292929;
+  text-align: center;
+  padding: 8px;
+}
+
+
+th {
+  background-color: #3adcdc;
+  color: #ffffff;
+}
+
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.contact {
+ 
+  margin-top: 65%;
+  
+  text-align: center;
+  font-family: Montserrat-black;
+  background-color:#3adcdc ;
+}
+
+.assignments{
+  position: absolute;
+  top:70%;
+  left:36%;
+}
+
+.body{
+  font-family: Montserrat-Black;
+}
+
+/* .assignments{
+  background-color: #3adcdc;
+  padding: 7% 25%;
+  position: absolute;
+  left:13.4%;
+} */
+
+.drop-down{
+  font-size: 1.5rem;
+ 
+  
+}
+
+.drop-th{
+  background-color: #3adcdc;
+  color:#f2f2f2;
+}
+
+.assignments{
+  position: absolute;
+  top: 70%;
+  left:30%;
+}
+
+#styear{
+  background-color: #292929;
+    border-radius: 1rem;
+    color: #ffffff;
+}
+
+.styear:hover{
+  background-color: #444444;
+}
+
+.books{
+  position: absolute;
+  top:93%;
+}
+
+/* .horizontal-list{
+  position: absolute;
+  top:99%;
+  left:50%;
+}
+
+.ahorizontal-list{
+  position: absolute;
+  top:99%;
+  left:60%;
+}
+
+.bhorizontal-list{
+  position: absolute;
+  top:107%;
+  left:50%;
+}
+
+.chorizontal-list{
+  position: absolute;
+  top:107%;
+  left:60%;
+} */
+
+.luists{
+  position: absolute;
+  top:100%;
+  left:45%;
+  border: 1px solid #292929;
+  background-color: #dddddd;
+  color: #292929;
+
+}
+
+.text{
+font-size:1.5rem ;
+position: absolute;
+top: 90%;
+}
+
+@media screen and (max-width: 900px) and (min-width:200px){
+  .c-m-s-courses{
+    background-color: #3adcdc;
+    padding: 3% 10%;
+    font-family: Montserrat-Black;
+}
+
+.roll-no{
+  /* font-size: 1rem; */
+  position:absolute;
+  left: 60%;
+  top: 7%;
+  background-color: #292929;
+  border-radius: 1rem;
+  color: #ffffff;
+}
+
+.roll-no:hover{
+  background-color: #444444;
+}
+
+
+.roll-no2{
+  position:absolute;
+  left: 80%;
+  top: 7%;
+  background-color: #292929;
+  border-radius: 1rem;
+  color: #ffffff;
+}
+
+.roll-no2:hover{
+background-color: #444444;
+}
+
+.course-table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 40%; 
+  text-emphasis: none;
+  text-align: left;
+  margin-top: 20px; 
+  position: absolute;
+  left: 20%;
+ font-size: 1rem;
+}
+
+td, th {
+  border: 1px solid #292929;
+  text-align: center;
+  padding: 8px;
+}
+
+
+th {
+  background-color: #3adcdc;
+  color: #ffffff;
+}
+
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.assignments{
+  position: absolute;
+  top:55%;
+  left:21%;
+}
+
+.drop-down{
+  font-size: 1rem;
+ }
+
+ .books{
+  position: absolute;
+  top:72%;
+  left:42%;
+  width: 30%;
+}
+
+.luists{
+  position: absolute;
+  top:95%;
+  left:35%;
+  border: 1px solid #292929;
+  background-color: #dddddd;
+  color: #292929;
+  width:50%;
+}
+
+.contact {
+ 
+  margin-top: 152%;
+  
+  text-align: center;
+  font-family: Montserrat-black;
+  background-color:#3adcdc ;
+}
+
+}

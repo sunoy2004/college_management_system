@@ -1,0 +1,344 @@
+.left-version{
+    text-align: left;
+    padding-bottom: 0;
+    color: #292929;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1{
+    text-align: left;
+    padding:-2% 1%;
+  }
+  
+  .ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: #292929;
+  }
+  
+  .li-a{
+    display: block;
+    color: #000;
+    padding: 8% 16%;
+    
+    color: aliceblue;
+     height: 100%;
+  }
+  
+  /* Change the link color on hover */
+  .li-a:hover {
+    background-color: #1f1f1f;
+    
+  }
+  
+  
+  h4{
+    background-color: #292929;
+    color: #ffffff;
+    padding: 8% 20%;
+  }
+  
+  .main{
+    width: 100%;
+    overflow-x:auto;
+    height: 100%;
+    
+    position: fixed;
+  }
+  .left-version {
+  width: 13.5%;
+  float: left;
+  overflow-y: auto;
+  /* Other existing styles remain unchanged */
+  }
+  
+  .wlcm{
+    text-align: right;
+    font-family: Montserrat-Black;
+  }
+  
+  .left-minur{
+    margin-top: -10%;
+    font-family: Montserrat-Black-light;
+    color: #ffffff;
+  }
+  .li-a a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    color: white;
+    padding: 9% 10%;
+    text-decoration: none;
+   
+  }
+  
+  #main div {
+    display: flex;  /* IE 10 */  
+    /* flex: 1; */
+  }
+
+.student-top {
+    background-color: #3adcdc;
+    padding: 5% 10%;
+    font-family: Montserrat-Black;
+}
+
+
+
+.table-view:hover {
+    background-color: #444444;
+}
+
+.table-view {
+    background-color: #292929;
+    font-family: Montserrat-Black;
+    color: #ffffff;
+    border-radius: 1rem;
+    position: absolute;
+    left: 75%;
+    top: 20%;
+}
+
+.Add-stud:hover {
+    background-color: #444444;
+}
+
+.Add-stud {
+    background-color: #292929;
+    font-family: Montserrat-Black;
+    color: #ffffff;
+    border-radius: 1rem;
+    position: absolute;
+    left: 83%;
+    top: 20%;
+}
+
+.view-stud:hover {
+    background-color: #444444;
+}
+
+.view-stud {
+    background-color: #292929;
+    font-family: Montserrat-Black;
+    color: #ffffff;
+    border-radius: 1rem;
+    position: absolute;
+    left: 91%;
+    top: 20%;
+}
+
+.stud-image {
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+
+
+/* .TEXT2-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  } */
+
+
+
+.stud1-image {
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.student5{
+    position: absolute;
+    top:83%;
+    left:15%;
+    /* width:20%; */
+    border-radius: 50%;
+}
+
+.student7{
+    position: absolute;
+    top:83%;
+    left:35%;
+    /* width:20%; */
+    border-radius: 50%;
+}
+
+.student6{
+    position: absolute;
+    top:83%;
+    left:55%;
+    /* width:20%; */
+    border-radius: 50%;
+}
+
+.student8{
+    position: absolute;
+    top:83%;
+    left:75%;
+    /* width:20%; */
+    border-radius: 50%;
+}
+
+
+/* .TEXT1-container {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+   } */
+
+.TEXT {
+    text-align: center;
+    margin-top: 5%;
+    margin-left: 2%;
+}
+
+
+
+div.TEXT div {
+    width: 20%;
+    float: left;
+}
+
+.contact {
+    margin-top: 70%;
+    text-align: center;
+    font-family: Montserrat-black;
+    background-color: #3adcdc;
+}
+
+@media screen and (max-width: 900px) and (min-width:200px){
+    .student-top {
+        background-color: #3adcdc;
+        padding: 3% 10%;
+        font-family: Montserrat-Black;
+    }
+
+    .Add-stud:hover {
+        background-color: #444444;
+    }
+    
+    .Add-stud {
+        background-color: #292929;
+        font-family: Montserrat-Black;
+        color: #ffffff;
+        border-radius: 1rem;
+        position: absolute;
+        left: 53%;
+        top: 8%;
+    }
+
+    .table-view:hover {
+        background-color: #444444;
+    }
+    
+    .table-view {
+        background-color: #292929;
+        font-family: Montserrat-Black;
+        color: #ffffff;
+        border-radius: 1rem;
+        position: absolute;
+        left: 69%;
+        top: 8%;
+    }
+
+    .view-stud:hover {
+        background-color: #444444;
+    }
+    
+    .view-stud {
+        background-color: #292929;
+        font-family: Montserrat-Black;
+        color: #ffffff;
+        border-radius: 1rem;
+        position: absolute;
+        left: 85%;
+        top: 8%;
+    }
+
+    .stud-image{
+        width:60%;
+    }
+
+    .stud1-image{
+        width:60%;
+    }
+
+    .student1{
+        position: absolute;
+        top:15%;
+        left:28%;
+        /* width:20%; */
+        border-radius: 70%;
+        
+    }
+    
+    .student2{
+        position: absolute;
+        top:20%;
+        left:63%;
+        /* width:20%; */
+        border-radius: 50%;
+    }
+
+    .student3{
+        position: absolute;
+        top:50%;
+        left:28%;
+        /* width:20%; */
+        border-radius: 70%;
+    }
+
+    .student4{
+        position: absolute;
+        top:50%;
+        left:63%;
+        /* width:20%; */
+        border-radius: 70%;
+    }
+
+    .student5{
+        position: absolute;
+        top:80%;
+        left:28%;
+        /* width:20%; */
+        border-radius: 50%;
+    }
+
+    .student7{
+        position: absolute;
+        top:80%;
+        left:63%;
+        /* width:20%; */
+        border-radius: 50%;
+    }
+
+    .student6{
+        position: absolute;
+        top:110%;
+        left:28%;
+        /* width:20%; */
+        border-radius: 50%;
+    }
+
+    .student8{
+        position: absolute;
+        top:110%;
+        left:63%;
+        /* width:20%; */
+        border-radius: 50%;
+    }
+
+    .text-inside{
+       font-size: 0.8rem;
+    }
+
+    .contact {
+        margin-top: 150%;
+        text-align: center;
+        font-family: Montserrat-black;
+        background-color: #3adcdc;
+    }
+}

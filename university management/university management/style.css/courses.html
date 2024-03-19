@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>C-M-S</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="E:\university management\style.css\courses.css">
+</head>
+
+<body>
+
+    <div class="main">
+        <div class="left-version">
+    
+          
+          <!-- <hr style="color: rgb(156, 163, 161);"> -->
+          <div class="left-minur" style="display:block">
+            <h4 admin><i class="fas fa-user-tie"></i> Admin</h4>
+            <ul class="ul">
+              <!-- Add "fas" class to indicate Solid style icons -->
+              <li class="li-a"><a href="E:\university management\index.html"><i class="fa fa-home" aria-hidden="true"></i> Home</a></li>
+              <li class="li-a"><a href="E:\university management\style.css\courses.html"><i class="fa fa-book" aria-hidden="true"></i> Courses </a></li>
+              <li class="li-a"><a href="E:\university management\style.css\Student.html"><i class="fa fa-users" aria-hidden="true"></i>Student</a></li>
+              <li class="li-a"><a href="E:\university management\style.css\subject.html"><i class="fa fa-graduation-cap" aria-hidden="true"></i> Subjects</a></li>
+              <li class="li-a"><a href="E:\university management\style.css\faculty.html"><i class="fa fa-users" aria-hidden="true"></i> Faculties</a></li>
+              <li class="li-a"><a href="E:\university management\style.css\courses.html"><i class="fa fa-pencil-square" aria-hidden="true"></i> Assignment</a></li>
+              <li class="li-a"><a href=""><i class="fa fa-line-chart" aria-hidden="true"></i> Enter marks</a></li>
+              <li class="li-a"><a href=""><i class="fa fa-align-center" aria-hidden="true"></i> Marksheet</a></li>
+              <li class="li-a"><a href=""><i class="fa fa-bar-chart" aria-hidden="true"></i> Mark attendance</a></li>
+              <li class="li-a"><a href=""><i class="fas fa-clipboard-user"></i> Attendance report</a></li>
+              <li class="li-a"><a href=""><i class="fab fa-rocketchat"></i> Chat</a></li>
+              <li class="li-a"><a href=""><i class="fa fa-search" aria-hidden="true"></i> Search</a></li>
+              <li class="li-a"><a href=""><i class="fas fa-users"></i> Users</a></li>
+              <li class="li-a"><a href=""><i class="fa fa-id-card" aria-hidden="true"></i> Admin profile</a></li>
+              <li class="li-a"><a href=""><i class="fa fa-sign-out" aria-hidden="true"></i>Logout</a></li>
+              <li class="li-a"><a href=""><i class="fal fa-right-from-bracket"></i> Exit</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="c-m-s-courses">
+
+
+
+    
+            <h1>All cources</h1>
+            <button  class="roll-no"  type="button">Roll generator</button>
+            
+            <button  class="roll-no2" type="button">Add Cource </button>
+        </div>
+
+        <div>
+          <table class="course-table">
+            <tr>
+              <th>Index no.</th>
+              <th>Course code</th>
+              <th>Cource subject</th>
+              <th>Subjects</th>
+              <th>Students</th>
+              <th>Total sem/year</th>
+            </tr>
+
+            <tr>
+              <td>1</td>
+              <td>CE</td>
+              <td>Computer Engineering</td>
+              <td>48</td>
+              <td>180</td>
+              <td>8 sem</td>
+            </tr>
+
+            <tr>
+              <td>2</td>
+              <td>EE</td>
+              <td>Electronic Engineering</td>
+              <td>55</td>
+              <td>160</td>
+              <td>8 sem</td>
+            </tr>
+
+            <tr>
+              <td>3</td>
+              <td>ME</td>
+              <td>Mechanical Engineering</td>
+              <td>35</td>
+              <td>120</td>
+              <td>8 sem</td>
+            </tr>
+
+            <tr>
+              <td>4</td>
+              <td>IT</td>
+              <td>Information technology</td>
+              <td>55</td>
+              <td>170</td>
+              <td>8 sem</td>
+            </tr>
+
+           
+          </table>
+        </div>
+        <form class="assignments">
+          <table class="drop-down">
+            <tr>
+           <th class="drop-th"colspan="4"><label for="cars">CLICK ON YOUR RESPECTIVE CLASSES TO GET ASSIGNMENTS</label></th>
+           </tr>
+
+           <tr>
+            <td>
+          <select id="styear" name="1styear">
+            
+            <option value="1st year">1ST YEAR</option>
+            <a href=""><option value="CSE B1">CSE-B1</option></a>
+            <a href=""><option value="CSE B2">CSE B2</option></a>
+            <a href=""><option value="ECE A1">ECE A1</option></a>
+            <a href=""></a><option value="ECE A2">ECE A2</option></a>
+          </select>
+        </td>
+
+           <td>
+          <select id="styear" name="2ND YEAR">
+            
+            <option value="2ND YEAR">2ND YEAR</option>
+            <a href=""><option value="CSE B1">CSE-B3</option></a>
+            <a href=""><option value="CSE B2">CSE B4</option></a>
+            <a href=""></a><option value="ECE A1">ECE A3</option></a>
+            <a href=""></a><option value="ECE A2">ECE A4</option></a>
+          </select>
+        </td>
+
+        <td>
+          <select id="styear" name="1styear">
+            
+             <a href=""><option value="3RD YEAR">3RD YEAR</option>
+              <a href=""><option value="CSE B1">CSE-B5</option></a>
+              <a href=""><option value="CSE B2">CSE B6</option></a>
+              <a href=""><option value="ECE A1">ECE A5</option></a>
+              <a href=""><option value="ECE A2">ECE A6</option></a>
+          </select>
+        </td>
+
+        <td>
+          <select id="styear" name="1styear">
+            
+            <option value="1st year">4TH YEAR</option>
+            <a href=""></a><option value="CSE B1">CSE-B7</option></a>
+            <a href=""></a><option value="CSE B2">CSE B8</option></a>
+            <a href=""></a><option value="ECE A1">ECE A7</option></a>
+            <a href=""></a><option value="ECE A2">ECE A8</option></a>
+          </select>
+        </td>
+        </tr>
+        </table>
+          <!-- <input type="submit" value="Submit"> -->
+        </form>
+        <div>
+          <img class="books" src="https://th.bing.com/th?id=OIP.O3L52oDDYqozQm0ZYSaDaAHaGe&w=267&h=233&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2">
+          <table class="luists">
+
+            <tr>
+              <th colspan="2">CLICK HERE TO GET SUBJECTS BOOKS </th>
+            </tr>
+              <tr>
+                  <td>
+                      <h3>1st year books</h3>
+                      <ul>
+                        <a href=""><li>CSE</li></a>
+                          <a href=""><li>ECE</li></a>
+                      </ul>
+                  </td>
+                  <td>
+                      <h3>2nd year books</h3>
+                      <ul>
+                        <a href=""><li>CSE</li></a>
+                          <a href=""><li>ECE</li></a>
+                      </ul>
+                  </td>
+              </tr>
+              <tr>
+                  <td>
+                      <h3>3rd year books</h3>
+                      <ul>
+                        <a href=""><li>CSE</li></a>
+                          <a href=""><li>ECE</li></a>
+                      </ul>
+                  </td>
+                  <td>
+                      <h3>4th year books</h3>
+                      <ul>
+                        <a href=""><li>CSE</li></a>
+                          <a href=""><li>ECE</li></a>
+                      </ul>
+                  </td>
+              </tr>
+          </table>
+      </div>
+      
+
+        <div class="contact">
+          <p>To contact college authorities, for gathering college information contact on below number </p>
+          <p>Contact number:79723-27296</p>
+          <p> Also Contact us via email: <a href="mailto:ui22cs77@iiitsurat.ac.in">info@example.com</a></p>
+          <a href="" style="color:black" class="icons"><i class="fa-brands fa-instagram"></i></a>
+          <a href="" style="color:black" class="icons"><i class="fa-brands fa-square-twitter"></i></a>
+          <a href=" " style="color:black" class="icons"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+    
+
+        
+    </div>
+
+
+</body>

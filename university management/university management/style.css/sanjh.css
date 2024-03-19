@@ -1,0 +1,393 @@
+.left-version{
+  text-align: left;
+  padding-bottom: 0;
+  color: #292929;
+  margin: 0;
+  padding: 0;
+}
+
+h1{
+  text-align: right;
+  padding:2% 1%;
+}
+
+.ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background-color: #292929;
+}
+
+.li-a{
+  display: block;
+  color: #000;
+  padding: 8% 16%;
+  
+  color: aliceblue;
+   height: 100%;
+}
+
+/* Change the link color on hover */
+.li-a:hover {
+  background-color: #1f1f1f;
+  
+}
+
+
+h4{
+  background-color: #292929;
+  color: #ffffff;
+  padding: 8% 20%;
+}
+
+.main{
+  width: 100%;
+  overflow-x:auto;
+  height: 100%;
+  
+  position: fixed;
+}
+.left-version {
+width: 13.5%;
+float: left;
+overflow-y: auto;
+/* Other existing styles remain unchanged */
+}
+
+.wlcm{
+  text-align: right;
+  font-family: Montserrat-Black;
+}
+
+.left-minur{
+  margin-top: -10%;
+  font-family: Montserrat-Black-light;
+  color: #ffffff;
+}
+.li-a a {
+  text-decoration: none;
+  color: white;
+  display: block;
+  color: white;
+  padding: 9% 10%;
+  text-decoration: none;
+ 
+}
+
+#main div {
+  display: flex;  /* IE 10 */  
+  /* flex: 1; */
+}
+
+
+.firststimg{
+  position: absolute;
+  left: 16%;
+  top: 45%;
+}
+
+.thirdimg{
+  /* padding: 150px; */
+  position: absolute;
+  right: 25%;
+  top: 45%;
+}
+
+.secondimg{
+
+ position: absolute;
+ right: 48%;
+ top: 45%;
+}
+
+.fourthimg{
+  position: absolute;
+  top:45%;
+  right:2%;
+}
+
+/* .wlcm{ */
+  /* background-color: lightskyblue; */
+/* } */
+
+.wlcmi{
+  background-color: #3adcdc;
+  padding: 2%;
+}
+
+.home-pg{
+  text-align: left;
+  padding: 7% 10%;
+  /* margin-top: 15%; */
+  background-color: #3adcdc;
+}
+
+.contact {
+  /* padding: 20% 15%; */
+  /* vertical-align: baseline; */
+  margin-top: 51%;
+  /* Increase the top padding to move the contact section down */
+  text-align: center;
+  font-family: Montserrat-black;
+  background-color:#3adcdc ;
+}
+
+
+
+.firststimg,
+.secondimg,
+.thirdimg,
+.fourthimg{
+transition: transform 1.5s; 
+}
+
+.firststimg:hover,
+.secondimg:hover,
+.thirdimg:hover,
+.fourthimg:hover{
+transform: rotateY(360deg); 
+}
+
+.icons{
+font-size: 1.5rem;
+}
+
+.icons:hover{
+background-color: lightcyan;
+}
+
+.regnow{
+position:absolute;
+/* left: 90%;
+top: 26%; */
+background-color: #292929;
+border-radius: 1rem;
+color: #ffffff;
+position: absolute;
+left:35%;
+}
+
+.regnow:hover{
+background-color: #444444;
+/* text-align: center; */
+
+
+
+}
+
+.open_mic{
+border-radius: 60%;
+overflow: hidden;
+}
+
+.OPENMIC{
+text-align: center;
+position: absolute;
+margin-top: 16%;
+left:40%;
+
+
+}
+
+.headingop{
+font-size: 2rem;
+}
+
+body{
+font-family: Montserrat-Black;
+}
+
+/* .w3-center{
+position: absolute;
+left:40%;
+margin-top: 32%;
+} */
+
+.posbut{
+position: absolute;
+margin-top: -25%;
+left:25%;
+}
+
+.noposbut{
+position: absolute;
+margin-top: -25%;
+right:12%;
+}
+
+@media screen and (max-width: 900px) and (min-width:200px) {
+
+  
+
+.firststimg {
+  position: absolute;
+  left: 24%;
+  top: 25%;
+  font-size: 0.5rem; /* Adjust the font-size as needed */
+}
+
+.thirdimg {
+  position: absolute;
+  right: 10%;
+  top: 25%;
+  font-size: 0.5rem; /* Adjust the font-size as needed */
+}
+
+.secondimg {
+  position: absolute;
+  left: 24%;
+  top: 59%;
+  font-size: 0.5rem; /* Adjust the font-size as needed */
+}
+
+.fourthimg {
+  position: absolute;
+  top: 59%;
+  right: 10%;
+  font-size: 0.5rem; /* Adjust the font-size as needed */
+}
+
+
+/* .wlcm{ */
+  /* background-color: lightskyblue; */
+/* } */
+
+.wlcmi{
+  background-color: #3adcdc;
+  padding: 1%;
+}
+
+.home-pg{
+  text-align: left;
+  padding: 3% 6%;
+  /* margin-top: 15%; */
+  background-color: #3adcdc;
+}
+
+.contact {
+  /* padding: 20% 15%; */
+  /* vertical-align: baseline; */
+  margin-top: 143%;
+  /* Increase the top padding to move the contact section down */
+  text-align: center;
+  font-family: Montserrat-black;
+  background-color:#3adcdc ;
+}
+
+
+.firststimg,
+.secondimg,
+.thirdimg,
+.fourthimg{
+transition: transform 1.5s; 
+}
+
+.firststimg:hover,
+.secondimg:hover,
+.thirdimg:hover,
+.fourthimg:hover{
+transform: rotateY(360deg); 
+}
+
+.icons{
+font-size: 1.5rem;
+}
+
+.icons:hover{
+background-color: lightcyan;
+}
+
+.regnow{
+position:absolute;
+/* left: 90%;
+top: 26%; */
+background-color: #292929;
+border-radius: 1rem;
+color: #ffffff;
+position: absolute;
+top:100%;
+left:17%;
+}
+
+.regnow:hover{
+background-color: #444444;
+/* text-align: center; */
+
+}
+
+/* .open_mic{
+border-radius: 60%;
+overflow: hidden;
+position: absolute;
+right:29%;
+bottom:-119%;
+/* font-size:1rem; */
+
+
+
+
+.headingop{
+font-size: 1rem;
+position: relative;
+margin-top:116%;
+left:-15%;
+
+}
+
+.openmike{
+position: relative;
+margin-top: -5%;
+left:-15%;
+}
+
+.open_mic{
+position: relative;
+margin-top:0%;
+left:-15%;
+border-radius: 140%;
+}
+
+.string{
+position: absolute;
+margin-top:0%;
+left:-20%;
+}
+
+
+/* .string{
+  position: absolute;
+  margin-top: 10%;
+} */
+.anostring{
+text-align: center;
+position: relative;
+margin-top:20%;
+left:-10%;
+}
+
+
+
+body{
+font-family: Montserrat-Black;
+}
+
+/* .w3-center{
+position: absolute;
+left:40%;
+margin-top: 32%;
+} */
+
+.posbut{
+position: absolute;
+top: 125%;
+left:17%;
+}
+
+.noposbut{
+position: absolute;
+top: 125%;
+right:1%;
+}
+
+}
